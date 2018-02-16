@@ -110,6 +110,11 @@ sudo apt-get update
 sudo apt-get -y install salt-minion
 sudo chown -R pi /srv
 ```
+Clone this repository and CD into it:
+```
+git clone git@github.com:diggerdata/raspberry-openvpn-gateway.git
+cd raspberry-openvpn-gateway
+```
 
 Now copy configuration files from this project onto the Raspberry Pi:
 
