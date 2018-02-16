@@ -1,6 +1,6 @@
 # Raspberry Pi OpenVPN sharing gateway
 
-This project allows you to give access to a VPN tunnel through multiple machines via a [Raspberry Pi](https://www.raspberrypi.org/) (1 or 2) with two network interfaces.
+This project allows you to give access to a VPN tunnel through multiple machines via a [Raspberry Pi](https://www.raspberrypi.org/) (1, 2, or 3) with two network interfaces.
 
 Network topology follows:
 
@@ -29,10 +29,10 @@ Raspberry Pi acts as router, very basic firewall, DHCP server, DNS cache and VPN
 
 ## Hardware requirements
 
- - [Raspberry Pi 2](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/) (original Model B Raspberry Pi also works but it's limited in bandwidth);
+ - [Raspberry Pi 2 or 3](https://www.raspberrypi.org/products/raspberry-pi-2-model-b/) (original Model B Raspberry Pi also works but it's limited in bandwidth);
  - [Raspberry Pi case](https://www.raspberrypi.org/products/raspberry-pi-case/);
  - USB power adapter (5v, 2000mA, 10W) with micro USB plug;
- - microSD card (4GB or more);
+ - microSD card (16GB or more);
  - [TRENDNET TU3-ETG USB3 Gigabit Ethernet adapter](https://www.trendnet.com/products/proddetail.asp?prod=315_TU3-ETG) (eth1 in the diagram above);
 
 ## Raspberry Pi base image preparation
